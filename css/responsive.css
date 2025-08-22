@@ -1,0 +1,273 @@
+/* Index Page Responsive Css */
+/* @media screen and (max-width : 1024px) {
+    #cuisines .cuisine {
+        flex-basis: 33.3%;
+    }
+
+    #cuisines .container .mexican {
+        flex-basis: 50%;
+    }
+
+    #cuisines .container .chinese {
+        flex-basis: 50%;
+    }
+
+    #cuisines .container .american {
+        flex-basis: 50%;
+    }
+
+    #cuisines .container .pizza {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #cuisines .cuisine {
+        flex-basis: 100%;
+    }
+
+    #cuisines .container .mexican {
+        flex-basis: 100%;
+    }
+
+    #cuisines .container .chinese {
+        flex-basis: 100%;
+    }
+
+    #cuisines .container .american {
+        flex-basis: 100%;
+    }
+
+    #cuisines .container .pizza {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    #cuisines .cuisine {
+        flex-basis: 100%;
+    }
+} */
+
+/* nav bar responsive */
+
+@media screen and (max-width : 500px) {
+
+    .nav-bar {
+        width: 100vw;
+        position: absolute;
+        top: 0px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        z-index: 2;
+    }
+
+    /* .nav-links {
+        display: none !important;
+        height: 286px;
+    } */
+
+
+    .nav-bar #toggle-btn {
+        display: inline-block !important;
+        font-size: 1.5rem;
+        color: var(--white);
+        position: absolute;
+        right: 0.5%;
+        top: 0px;
+    }
+
+    .responsive {
+        /* display: flex !important; */
+        /* position: sticky;
+        top: 2px; */
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        height: 286px;
+    }
+
+    .responsive a {
+        border-bottom: 1px solid white;
+        width: 100px;
+    }
+
+    .responsive a:hover {
+        width: 100%;
+        transform: translateX(10px) !important;
+        transition: 0.5s ease-in;
+    }
+
+    .search {
+        margin: 30px 0px !important;
+    }
+
+}
+
+/* Middle Content Responsive Css */
+
+@media screen and (max-width : 600px) {
+
+    .branding {
+        margin-top: 50px;
+    }
+
+    .features {
+        margin-top: 20px;
+    }
+
+    .features .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features .feature {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #statistics {
+        width: 85%;
+    }
+
+    #statistics .stat-data h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .contact-us .fieldset {
+        border: none;
+    }
+}
+
+/* Footer Responsive Css */
+
+@media screen and (max-width : 1201px) {
+    
+    /* .footer {
+        justify-items: space-between;
+    } */
+
+    .contact-us {
+        width: 500px;
+        grid-row: 1 / 1;
+    }
+
+    .column1 {
+        width: 98%;
+        max-height: 390px;
+        align-self: center;
+    }
+
+    .column-2 {
+        max-height: 150px;
+        width: 90%;
+        grid-column: 1/ span 2;
+        width: 600px;
+    }
+
+    .column-2 button {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width : 1025px) {
+
+    .social .links .fa {
+        font-size: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .footer > * {
+        margin-top: 15px;
+    }
+
+    .footer > .column-2 {
+        margin-bottom: 10px;
+    }
+
+    .contact-us {
+        width: 95%;
+        
+    }
+
+    .column1 {
+        width: 95%;
+    }
+    
+    .column-2 {
+        width: 60%;
+        
+    }
+
+}
+
+
+@media screen and (max-width : 769px) {
+
+    .contact-us {
+        width: 85%;
+        
+    }
+
+    .column1 {
+        width: 85%;
+    }
+    
+    .column-2 {
+        width: 85%;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width : 500px){
+
+.column1 {
+    /* min-height: 450px; */
+    max-height: none;
+}
+
+.social h2 {
+    font-size: 20px;
+}
+
+.social .links {
+    max-width: 300px;
+}
+
+.social .links .fa {
+    font-size: 16px;
+}
+
+}
+
+@media screen and (max-width : 481px){
+
+    .contact-us, .column1, .column-2 {
+        border: none;
+        border-bottom: 3px solid wheat;
+        border-radius: 0px;
+    }
+
+    .social .links {
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width : 628px) {
+    .social .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

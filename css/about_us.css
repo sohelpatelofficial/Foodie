@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* background-image: url(../images/background_Images/about_us_backimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* object-fit: contain; */
+    background-color: #f5cc9a !important;
+}
+
+main * {
+    color: black;
+}
+
+main {
+    margin-top: 10px;
+}

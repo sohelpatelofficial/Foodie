@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie Search For Famous Recipes In The World</title>
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <!-- Stylesheets and Scripts -->
+  <link rel="stylesheet" href="css/slider.css">
+  <!-- Jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- loading stylesheet -->
+  <script src="javascript/loadstylesheets.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-container">
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="about_us.html" target="_blank">About Us </a>
+            <a href="#footerBookmark">Contact Us</a>
+            <a href="login.html" target="_blank">Login</a>
+            <a href="login.html" target="_blank">Register</a>
+          </div>
+          <a href="javascript:void(0);" id="toggle-btn"><i class="fa fa-bars"></i></a>
+        </div>
+        <form class="search">
+          <button type="submit" id="srch-btn"><ion-icon name="search-sharp"></ion-icon></button>
+          <input type="search" name="" id="srch-bar" placeholder="Search Your Favouite Recipes Here">
+        </form>
+      </nav>
+      <section class="branding">
+        <h1>Find Your Best-Loved </h1>
+        <span id="recipes">Recipes</span>
+        <h1>At Foodie</h1>
+        <div>
+          <button class="header-btn"><span>Get Started</span></button>
+        </div>
+        <p>
+          OR SEND US YOUR OWN RECIPES AND GET <a href="#">REWARDED</a>.
+        </p>
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="features">
+      <div class="container flex-center text-center">
+        <article class="feature">
+          <figure class="fig-image">
+            <img src="images/burger@2x.png" alt="">
+          </figure>
+          <figcaption>
+            <h2>GET INSPIRED</h2>
+            <p>Varieties of recipes across different Global cuisines available.</p>
+          </figcaption>
+        </article>
+        <article class="feature">
+          <figure class="fig-image">
+            <img src="images/money@2x.png" alt="">
+          </figure>
+          <figcaption>
+            <h2>GET REWARDED</h2>
+            <p>Rewards for sending us your own recipe to showcase to the world.</p>
+          </figcaption>
+        </article>
+        <article class="feature">
+          <figure class="fig-image">
+            <img src="images/chef@2x.png" alt="">
+          </figure>
+          <figcaption>
+            <h2>GET SOCIAL</h2>
+            <p>Share a post and tag us on Social Media when your find your recipe here.</p>
+          </figcaption>
+        </article>
+      </div>
+    </section>
+    <section id="reviews" class="text-center flex-all-center">
+      <blockquote class="quote">
+        <q>I am so happy because I found this recipe, and it just made my life easier.Thanks so much for sharing!</q>
+        <footer>- Michael Clarke, Redmond, USA -</footer>
+      </blockquote>
+    </section>
+    <section id="cuisines">
+      <h2>Brow<span>se By Cui</span>sine</h2>
+      <div class="container">
+        <!-- <div class="italian cuisine">
+          <p> 20 Recipes</p>
+          <h3>italian</h3>
+        </div>
+        <div class="indian cuisine">
+          <p> 20 Recipes</p>
+          <h3>indian</h3>
+        </div>
+        <div class="french cuisine">
+          <p> 20 Recipes</p>
+          <h3>french</h3>
+        </div>
+        <div class="steak cuisine">
+          <p> 20 Recipes</p>
+          <h3>steakhouse</h3>
+        </div>
+        <div class="seafood cuisine">
+          <p> 20 Recipes</p>
+          <h3>seafood</h3>
+        </div>
+        <div class="sushi cuisine">
+          <p> 20 Recipes</p>
+          <h3>sushi</h3>
+        </div>
+        <div class="mexican cuisine">
+          <p> 20 Recipes</p>
+          <h3>mexican</h3>
+        </div>
+        <div class="chinese cuisine">
+          <p> 20 Recipes</p>
+          <h3>chinese</h3>
+        </div>
+        <div class="pizza cuisine">
+          <p> 20 Recipes</p>
+          <h3>pizza</h3>
+        </div>
+        <div class="american cuisine">
+          <p> 20 Recipes</p>
+          <h3>american</h3>
+        </div> -->
+        <!-- Slider-->
+        <div class="slider" id="slider1">
+          <!-- Slides -->
+          <div style="background-image: url('images/italian.png');">
+            <p> 20 Recipes</p>
+            <h3>Italian</h3>
+          </div>
+          <div style="background-image: url('images/indian.png');">
+            <p> 20 Recipes</p>
+            <h3>Indian</h3>
+          </div>
+          <div style="background-image: url('images/french.png');">
+            <p> 20 Recipes</p>
+            <h3>French</h3>
+          </div>
+          <div style="background-image: url('images/steak.png');">
+            <p> 20 Recipes</p>
+            <h3>Steak</h3>
+          </div>
+          <div style="background-image: url('images/seafood.png');">
+            <p> 20 Recipes</p>
+            <h3>Seafood</h3>
+          </div>
+          <div style="background-image: url('images/sushi.png');">
+            <p> 20 Recipes</p>
+            <h3>Sushi</h3>
+          </div>
+          <div style="background-image: url('images/mexican.png');">
+            <p> 20 Recipes</p>
+            <h3>Mexican</h3>
+          </div>
+          <div style="background-image: url('images/chinese.png');">
+            <p> 20 Recipes</p>
+            <h3>Chinese</h3>
+          </div>
+          <div style="background-image: url('images/pizza.png');">
+            <p> 20 Recipes</p>
+            <h3>Pizza</h3>
+          </div>
+          <div style="background-image: url('images/american.png');">
+            <p> 20 Recipes</p>
+            <h3>American</h3>
+          </div>
+          <!-- The Arrows -->
+          <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+              <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+            </svg></i>
+          <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+              <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) ">
+              </path>
+            </svg></i>
+          <!-- Title Bar -->
+          <!-- <span class="titleBar">
+            <h1>This Slider has all default settings.</h1>
+          </span> -->
+        </div>
+      </div>
+    </section>
+    <section id="statistics" class="flex-center">
+      <div class="stat-data">
+        <h3>23,567</h3>
+        <span>Recipes Available</span>
+      </div>
+      <div class="stat-data">
+        <h3>431,729</h3>
+        <span>Active Users</span>
+      </div>
+      <div class="stat-data">
+        <h3>892,173</h3>
+        <span>Positive Reviews</span>
+      </div>
+      <div class="stat-data">
+        <h3>56,581</h3>
+        <span>Photos &amp; Videos</span>
+      </div>
+      <div class="stat-data">
+        <h3>3,182</h3>
+        <span>Spices &amp; Herbs</span>
+      </div>
+    </section>
+  </main>
+  <footer id="footerBookmark">
+    <div class="footer">
+      <form class="contact-us">
+        <h1><span>Contact </span><span>Us</span></h1>
+        <input type="text" placeholder="First Name" class="input">
+        <input type="text" placeholder="Last Name" class="input">
+        <input type="email" placeholder="Contact Email" class="input">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message" class="input textarea"></textarea>
+        <div class="reach">
+          <label for="reach-us">How Do You Reached Us ?</label>
+          <select id="reach-us">
+            <option value="#">Select an option</option>
+            <option value="Website">Through Website</option>
+            <option value="Newspaper">Through Newspaper</option>
+            <option value="Advertisement">T.V Advertisement</option>
+            <option value="p_reference">Through Public Reference</option>
+          </select>
+        </div>
+        <input type="submit" id="sub-btn">
+      </form>
+      <div class="column1">
+        <div class="address">
+          <p><span>Branch Address :</span><br>Galli No.9, Husain Colony, Nyaynagar, Garkheda Parisar,
+            Aurangabad, Mahrashtra, India - 431001</p><br>
+          <!-- <p><span>Bengaluru Branch Address :</span><br>Flipkart Internet Private Limited,Buildings Alyssa, Begonia &
+                Clove Embassy
+                Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India</p><br> -->
+          <p><span>Registered Office Address :</span><br>Near Anand Watch Centre, Dewan Deodi, Gulmandi Road,
+            Aurangabad, Maharastra, India - 431001</p>
+        </div>
+        <div class="social">
+          <h2 style="text-align: center;">Social Links : </h2>
+          <div class="links">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://wa.me/message/5LGL6MIU3EZWO1" class="fa fa-whatsapp" target="_blank"></a>
+            <a href="https://www.youtube.com/@sohelpatel9217/" class="fa fa-youtube" target="_blank"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+          <div class="dev-contact">
+            <div id="Mail"><span>Mail Us At : </span><a
+                href="mailto:sohelpatelofficial@gmail.com">sohelpatelofficial@gmail.com</a>
+            </div>
+            <div id="txt-no"><span>Text Us At : </span><a
+                href="https://wa.me/message/5LGL6MIU3EZWO1">Whatsapp.Chat/+91-9822166303</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column-2">
+        <h2>Subscribe To Our Newsletter</h2>
+        <input type="text" placeholder="Enter Your Email Id">
+        <button type="button">Subscribe</button>
+      </div>
+    </div>
+    <marquee class="copyright">Copyright &copy; 2023 Foodie. All Rights Reserverd</marquee>
+  </footer>
+  <script src="javascript/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
